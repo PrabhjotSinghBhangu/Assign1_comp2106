@@ -1,0 +1,11 @@
+//- File Name: error page file
+//- Author: Amrit Grewal
+//- Site: portfolio-amrit.herokuapp.com
+//- Description: This file code display the error page on the frontend of the site, this file will throw a message, status of any error occured
+
+extends layout
+
+block content
+  h1= message
+  h2= error.status
+  pre #{error.stack}

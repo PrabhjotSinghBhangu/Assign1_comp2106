@@ -1,0 +1,39 @@
+//- File: Contact me Page
+//- Author: Prabhjot Singh Bhangu
+//- Site: prabhjot-portfolio1.herokuapp.com
+//- Description: Contact page of my Portfolio Website
+
+
+extends layout
+block content
+
+
+ .bg
+  nav.navbar.navbar-light
+  a.navbar-brand(href="/") Home
+  a.navbar-brand(href="/about") About Me
+  a.navbar-brand(href="/service") Services
+  a.navbar-brand(href="/contact") Contact Me
+  nav.navbar.navbar-light.bg-light
+  br
+  
+  h1= title
+      .card-body
+        h5.card-title Have a project to do?
+         p Let's talk Wanna get in touch or talk about a project?Feel free to contact me via email at bhangu@gmail.com or drop a line in the form. 
+
+
+        form.fwidth
+          .form-row
+            .form-group.col-md-6
+              label(for='inputEmail4') Email
+              input#inputEmail4.form-control(type='email' placeholder='Email')
+            .form-group.col-md-6
+              label(for='inputName') Name
+              input#inputName.form-control(type='text')
+          .form-group
+              label(for='exampleFormControlTextarea1') Message
+              textarea#exampleFormControlTextarea1.form-control(rows='3')
+
+          button.btn.btn-primary(type='submit') Send 
+        .footer

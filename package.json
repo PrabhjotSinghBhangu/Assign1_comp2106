@@ -1,0 +1,24 @@
+//- File: Package Page
+//- Author: Prabhjot Singh Bhangu
+//- Site: prabhjot-portfolio1.herokuapp.com
+//- Description: package.json file which contains all the installed scripts and packages of my Portfolio Website
+
+
+{
+  "name": "a1-comp2106",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.10",
+    "pug": "2.0.0-beta11"
+  }
+}

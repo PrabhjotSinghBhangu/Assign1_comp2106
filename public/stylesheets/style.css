@@ -1,0 +1,78 @@
+/*
+- File: Style.css Page
+- Author: Prabhjot Singh Bhangu
+- Site: prabhjot-portfolio1.herokuapp.com
+- Description: This file has all the styles used on the site!
+*/
+
+body {
+  font-size: 16px;
+}
+
+a {
+  color:Red !important;
+}
+
+.cardWidth{
+  width: 45%;
+  margin: auto;
+}
+
+.bg{
+  background-image: url(/images/mac.jpg);
+  background-repeat: no-repeat;
+  padding-left: 0%;
+}
+
+.bg h1{
+  color: white;
+  text-align: center;
+}
+.bg > p{
+  color:white;
+  text-align: center;
+}
+
+place1{
+    float: left;
+}
+
+.container{
+    width: 100%;
+}
+
+.card{
+    display: block !important;
+    
+}
+
+.fwidth{
+    width: 50% !important;
+    background-color: rgba(0, 78, 255, 0.32);
+    padding: 2%;
+    margin: auto;
+}
+
+.navbar-brand a{
+    color: white;
+}
+
+.navbar{
+    padding: 0 !important;
+/*
+    background-color: #20c4d9 !important;
+    height: 70px;
+*/
+}
+
+.btn{
+    width: 100%;
+}
+.btn-primary{
+    background: #03ff22bf;
+}
+
+.footer{
+    height: 300px;
+    background-color: black;
+}
