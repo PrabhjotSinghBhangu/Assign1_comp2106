@@ -1,1 +1,43 @@
+//- File: Index/Home Page
+//- Author: Prabhjot Singh Bhangu
+//- Site: prabhjot-portfolio1.herokuapp.com
+//- Description: Home page of my Portfolio Website
+extends layout
+
 block content
+  
+ .bg
+  nav.navbar.navbar-light
+  a.navbar-brand(href="/") Home
+  a.navbar-brand(href="/about") About Me
+  a.navbar-brand(href="/service") Services
+  a.navbar-brand(href="/contact") Contact Me
+  nav.navbar.navbar-light
+  br
+
+  h1= title 
+  p Prabhjot Singh - Full Stack Web Developer
+
+ 
+  .card.cardWidth.mb-5 
+   img(src='/images/profile.png')
+   .card-img-top
+   .card-body
+    h5.card-title #{myTitle}
+    p.card-text #{myQuality} 
+     br
+     a(href="/contact")
+       button.btn.btn-primary Contact me
+        
+       
+  .card.cardWidth
+   img(src='/images/profile.png')
+   .card-img-top
+   .card-body
+    h5.card-title #{myTitle2}
+    p.card-text #{myQuality2} 
+     br
+     a(href="/contact")
+       button.btn.btn-primary Contact me
+       
+   
